@@ -1,6 +1,8 @@
 DROP DATABASE IF EXISTS employee_trackerDB;
 CREATE DATABASE employee_trackerDB;
 
+USE employee_trackerDB;
+
 CREATE TABLE departments(
     id INT AUTO_INCREMENT NOT NULL,
     dept_name VARCHAR(30) NOT NULL,
