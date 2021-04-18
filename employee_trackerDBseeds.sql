@@ -1,13 +1,11 @@
-USE employee_trackerDB;
+USE employee_trackerdb;
 
-
-INSERT INTO departments (dept_name) 
+INSERT INTO departments (dept_name)
 VALUES 
 ("Marketing"),
 ("Human Resources"),
 ("Legal"),
 ("Accounting");
-
 
 INSERT INTO roles (title, salary, department_id)
 VALUES 
@@ -25,4 +23,3 @@ VALUES
 ("Bill","Murray","",""),
 ("Jack","Johnson","",""),
 ("Maynard","James","","");
-    
