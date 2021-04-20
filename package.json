@@ -1,7 +1,7 @@
 {
   "name": "H12_MYSQL_Employee_Tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Keeps track of employee information",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
