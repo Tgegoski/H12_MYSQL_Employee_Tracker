@@ -113,10 +113,9 @@ const runSearch = () => {
                 .then(function (answer) { }); {
                 let query = "INSERT INTO role (name) VALUES ( ? )";
                 connection.query('INSERT INTO roles', (err, res) => {
+
                   if (err) console.log(err);
-
                   const addRoles = res.map((role) => ({ name: title.name, id: department.dept.id, number: salary.number }));
-
                   console.log(cTable.getTable(roleResults));
 
                   runSearch();
