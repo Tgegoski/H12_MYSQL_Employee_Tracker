@@ -166,3 +166,4 @@ const runSearch = () => {
     }
   }
 }
+module.exports = connection;

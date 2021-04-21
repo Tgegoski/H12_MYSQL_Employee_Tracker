@@ -1,10 +1,14 @@
 {
   "name": "H12_MYSQL_Employee_Tracker",
   "version": "1.0.0",
-  "description": "Keeps track of employee information",
-  "main": "index.js",
+  "description": "keeps track of employee information",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/H12_MYSQL_Employee_Tracker"
   },
   "keywords": [],
   "author": "",
