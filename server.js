@@ -68,7 +68,6 @@ const viewAllRoles = () => {
   connection.query('SELECT * FROM roles', (err, res) => {
     if (err) console.log(err);
 
-    // const roleResults = res.map((role) => ({ name: role.name, name: role.dept_name, number: salary.number }));
     console.table(res);
 
     runSearch();
@@ -78,7 +77,6 @@ const viewAllEmployees = () => {
   connection.query('SELECT * FROM employees', (err, res) => {
     if (err) console.log(err);
 
-    // const employeeResults = res.map((role) => ({ name: first_name, name: last_name, id: role.id, id: manager_id }));
     console.table(res);
 
     runSearch();

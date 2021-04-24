@@ -23,3 +23,5 @@ VALUES
 ("Bill","Murray","",""),
 ("Jack","Johnson","",""),
 ("Maynard","James","","");
+("Amy","Mann","","");
+("Tori","Amos","","");
